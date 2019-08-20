@@ -1,16 +1,12 @@
 {
-  "name": "iochat",
+  "name": "socketchat",
   "version": "1.0.0",
-  "description": "simple chat app",
+  "description": "simple socket chat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "\u0016https://github.com/hassantayyab/chat-app-simple.git"
-  },
-  "author": "hassan tayyab",
+  "author": "Alexandr Svinarev",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
